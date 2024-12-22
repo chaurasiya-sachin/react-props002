@@ -1,0 +1,70 @@
+.movieCard{
+    max-width: 1280px;
+    width: 100%;
+    height: 60vh;    
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    margin: 5rem auto;
+    border-radius: 10px;
+    box-shadow: rgba(237, 0, 154, 0.1) 0px 1px 0px, rgba(255, 0, 81, 0.1) 0px 8px 24px, rgba(240, 130, 255, 0.1) 0px 16px 48px;
+    padding: 0.5rem;
+    /* border: 5px solid green; */
+}
+
+.content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-wrap: wrap;
+    gap: 2rem;
+    color: white;
+}
+
+.contentContainerTop{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+
+}
+.poster{
+    width: 25%;
+    height: 200px;       
+    border-radius: 10px;
+}
+
+.poster img{
+    width: 100%;
+    height: 100%;
+}
+
+.duration_genre{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0rem;
+    align-items: center;
+}
+
+.duration_genre div:first-child{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    box-shadow: rgba(247, 247, 247, 0.18) 0px 2px 4px;
+    border-radius: 5px;
+}
+
+.description{
+    text-wrap: wrap;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+}
+
+.icon{
+    display: flex;
+    gap: 3rem;
+    margin: 0rem 0rem 1rem 2rem;
+    font-size: 2rem;
+    color: grey;
+    
+}
